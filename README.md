@@ -3,8 +3,11 @@
 This repository is to help anyone who wants to view how to implement the code needed for the Mosquito hotend.
 
 Be warned as I also have personal changes to certain items listed due to my printer having issues:
+
 #define DEFAULT_MAX_FEEDRATE          {130, 200, 12, 120}      // (mm/sec)   max feedrate (M203) Changed from 200 to 130
+
 #define DEFAULT_MAX_FEEDRATE_SILENT         {120, 172, 12, 120}      // (mm/sec)   max feedrate (M203), silent mode Changed from 172 to 120
+
 #define DEFAULT_MAX_ACCELERATION      {800, 1000, 200, 5000}  // (mm/sec^2) max acceleration (M201) Changed from 1000 to 800
 
 # Original Prusa i3 MK2.5 upgrade
